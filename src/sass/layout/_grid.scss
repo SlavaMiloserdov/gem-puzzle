@@ -1,0 +1,13 @@
+.box {
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        "a a a a"
+        "a a a a"
+        "a a a a"
+        "a a a a";
+    border: 1px solid black;
+    position: relative;
+}

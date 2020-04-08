@@ -1,0 +1,27 @@
+.button {
+    background-color: $button_background;
+    height: 100%;
+    border-radius: 10px;
+    color: $button_text;
+    box-sizing: border-box;
+
+    &_play {
+        width: 35%;
+    }
+
+    &_stop {
+        width: 12%;
+    }
+
+    &_save {
+        width: 22%;
+    }
+
+    &_result {
+        width: 18%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
